@@ -1,0 +1,54 @@
+# Node modules
+node_modules/
+
+# Build outputs
+dist/
+build/
+*.log
+
+# Tailwind or other preprocessor outputs (if not tracked)
+*.css
+!src/*.css  # Keeps source CSS if needed
+*.css.map
+
+# Environment variables
+.env
+.env.*  # For .env.development, .env.production, etc.
+
+# Dependency lock files (optional, depending on team)
+# Uncomment one of the following if you don't want to commit lock files
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# PHP related
+vendor/
+*.log
+*.cache
+
+# Composer
+composer.lock
+composer.phar
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Vite or similar tooling
+.vite/
+*.tsbuildinfo
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sw?
+
+# Local server files
+*.sqlite
+*.sqlite3
+*.bak
+
+# Misc
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
