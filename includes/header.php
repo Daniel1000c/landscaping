@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <nav class="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700">
+        <nav class="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700 font-lato tracking-widest font-mono">
             <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <a href="index.php" class="flex items-center space-x-3 rtl:space-x-reverse">
                     <img src="https://cdn-icons-png.flaticon.com/512/1565/1565245.png" class="h-8" alt="Flores Landscaping" />
