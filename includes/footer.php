@@ -8,7 +8,7 @@
         <div class="row text-left text-md-left">
 
             <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Flores Landscape</h5>
+                <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Flores Lawn</h5>
                 <p class="footerText">We are a landscaping company that provides a wide range of services to meet your needs.
                 </p>
             </div>
