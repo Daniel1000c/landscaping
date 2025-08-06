@@ -14,7 +14,7 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="index.php"><span class="icon-logo"><i class='bx bxs-tree'></i></span> Flores Landscape</a>
+                    <a class="navbar-brand" href="index.php"><span class="icon-logo"><i class='bx bxs-tree'></i></span> Flores Lawn</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     </button>
