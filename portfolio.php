@@ -1,5 +1,7 @@
 <?php
+    $section_title = "Our Portfolio";
     require('includes/header.php');
+    require('includes/sectionHeader.php');
 ?>
 
 <?php
