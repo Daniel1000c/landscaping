@@ -21,10 +21,10 @@
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="index.php">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
+                            <a class="nav-link" href="about.php">About Us</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -38,7 +38,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Portfolio</a>
+                            <a class="nav-link" href="portfolio.php">Portfolio</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -54,10 +54,10 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
+                            <a class="nav-link" href="contact.php">Contact Us</a>
                         </li>
                         <li class="nav-item ms-3">
-                            <a href="#" class="btn quote-btn px-3"><span class="leaf-icon"><i class='bx bx-leaf' ></i></span> Get a Quote</a>
+                            <a href="contact.php" class="btn quote-btn px-3"><span class="leaf-icon"><i class='bx bx-leaf' ></i></span> Get a Quote</a>
                         </li>
                     </ul>
                     </div>
