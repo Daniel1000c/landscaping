@@ -1,7 +1,7 @@
 <?php
-    $section_title = "Contact Us";
+
+    $currentPage = "contact";
     require('includes/header.php');
-    require('includes/sectionHeader.php');
 ?>
 
 <?php
