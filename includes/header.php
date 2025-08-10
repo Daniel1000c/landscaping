@@ -14,7 +14,19 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="index.php"><span class="icon-logo"><i class='bx bxs-tree'></i></span> Flores Lawn</a>
+                    <a class="navbar-brand" href="index.php">
+                        <svg width="30px" height="30px" viewBox="0 0 48 48" version="1" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 48 48">
+                            <g fill="#FF9800">
+                                <rect x="36.1" y="8.1" transform="matrix(.707 .707 -.707 .707 21.201 -25.184)" width="9.9" height="9.9"/>
+                                <rect x="36" y="8" width="10" height="10"/>
+                            </g>
+                            <circle fill="#FFEB3B" cx="41" cy="13" r="3"/>
+                            <polygon fill="#2E7D32" points="16.5,18 0,42 33,42"/>
+                            <polygon fill="#4CAF50" points="33.6,24 19.2,42 48,42"/>
+                        </svg>
+                        
+                        <span class="logo-text">Flores Terrain</span>
+                    </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     </button>
