@@ -56,9 +56,6 @@
                         <li class="nav-item">
                             <a class="nav-link <?php echo ($currentPage === "contact") ? "active" : "" ?>" href="contact.php">Contact Us</a>
                         </li>
-                        <li class="nav-item ms-3">
-                            <a href="contact.php" class="btn quote-btn px-3"><span class="leaf-icon"><i class='bx bx-leaf' ></i></span> Get a Quote</a>
-                        </li>
                     </ul>
                     </div>
                 </div>
