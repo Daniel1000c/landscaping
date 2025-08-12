@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/style.css">
 </head>
@@ -74,10 +78,10 @@
                                     More Info
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><hr class="dropdown-divider"></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <li><a class="dropdown-item" href="#">Reviews & Testimonials</a></li>
+                                    <li><a class="dropdown-item" href="#">FAQ</a></li>
+                                    <li><a class="dropdown-item" href="#">Why Choose Us</a></li>
+                                    <li><a class="dropdown-item" href="#">Privacy Policy</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
@@ -85,10 +89,12 @@
                                     Services
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><hr class="dropdown-divider"></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <li><a class="dropdown-item" href="#">Lawn Installation & Maintenance</a></li>
+                                    <li><a class="dropdown-item" href="#">Garden Design & Planting</a></li>
+                                    <li><a class="dropdown-item" href="#">Hardscaping</a></li>
+                                    <li><a class="dropdown-item" href="#">Mulching & Soil Conditioning</a></li>
+                                    <li><a class="dropdown-item" href="#">Sod Installation</a></li>
+                                    <li><a class="dropdown-item" href="#">Seasonal Cleanup</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
@@ -96,10 +102,12 @@
                                     Locations
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><hr class="dropdown-divider"></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <li><a class="dropdown-item" href="#">Monterra</a></li>
+                                    <li><a class="dropdown-item" href="#">Rock Creek</a></li>
+                                    <li><a class="dropdown-item" href="#">Flamingo Gardens</a></li>
+                                    <li><a class="dropdown-item" href="#">Timberlake</a></li>
+                                    <li><a class="dropdown-item" href="#">Country Glen</a></li>
+                                    <li><a class="dropdown-item" href="#">Sunshine Acres</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item">
