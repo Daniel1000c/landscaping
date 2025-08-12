@@ -6,11 +6,6 @@ dist/
 build/
 *.log
 
-# Tailwind or other preprocessor outputs (if not tracked)
-*.css
-!src/*.css  # Keeps source CSS if needed
-*.css.map
-
 # Environment variables
 .env
 .env.*  # For .env.development, .env.production, etc.
