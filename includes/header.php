@@ -1,9 +1,13 @@
+<?php
+    //Include htmlSpecialChars function
+    require('includes/htmlSpecialCharsFunction.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title><?php echo(!empty($title) ? 'Flores Terrain | ' . $title : 'Flores Terrain') ?></title>
     <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
@@ -66,12 +70,12 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Home</a>
+                                <a class="nav-link <?php echo ($page === 'index') ? e('active') : '' ?>" href="index.php">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About Us</a>
+                                <a class="nav-link <?php echo ($page === 'about') ? e('active') : '' ?>" href="about.php">About Us</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -111,10 +115,10 @@
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Portfolio</a>
+                                <a class="nav-link <?php echo ($page === 'portfolio') ? e('active') : '' ?>" href="portfolio.php">Portfolio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
+                                <a class="nav-link <?php echo ($page === 'contact') ? e('active') : '' ?>" href="contact.php">Contact</a>
                             </li>
                         </ul>
                     </div>
