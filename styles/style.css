@@ -1,0 +1,78 @@
+/*************************************************Font Families***************************************************/
+
+/*Playfair Display*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+/*Poppins*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/*************************************************End of Font Families***************************************************/
+
+/*************************************************Keyframes Formatting***************************************************/
+/*Fade down Animation*/
+@keyframes fadeDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+/*************************************************End of Keyframes Formatting***************************************************/
+
+/*************************************************General Formatting***************************************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Root Formatting*/
+:root {
+  --logo-text-font: "Playfair Display", sans-serif;
+  --navigation-text-font: "Poppins", sans-serif;
+  --header-bg-color: linear-gradient(to right, #ff9966, #ff5e62);
+}
+/*************************************************End of General Formatting***************************************************/
+
+/*************************************************Header Formatting***************************************************/
+/*Format header background*/
+header {
+  background: var(--header-bg-color);
+}
+
+/*Format dropdown animation for navigation bar*/
+.navbar {
+  animation: fadeDown ease 0.6s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+/*Format logo text to be on the bottom of the logo*/
+.logo-text {
+  position: relative;
+  top: 10px;
+  font-family: var(--logo-text-font);
+  font-size: 1rem;
+  font-weight: 900;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+
+/*Format navlinks to be at the bottom of the navigation bar*/
+.nav-link {
+  position: relative;
+  top: 10px;
+}
+
+/*Format navigation text*/
+.navbar-nav .nav-link,
+.dropdown-menu .dropdown-item {
+  font-family: var(--navigation-text-font);
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+/*************************************************End of Header Formatting***************************************************/
