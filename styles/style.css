@@ -32,14 +32,14 @@
 :root {
   --logo-text-font: "Playfair Display", sans-serif;
   --navigation-text-font: "Poppins", sans-serif;
-  --header-bg-color: linear-gradient(to right, #ff9966, #ff5e62);
+  --site-bg-color: linear-gradient(to right, #ff9966, #ff5e62);
 }
 /*************************************************End of General Formatting***************************************************/
 
 /*************************************************Header Formatting***************************************************/
 /*Format header background*/
 header {
-  background: var(--header-bg-color);
+  background: var(--site-bg-color);
 }
 
 /*Format dropdown animation for navigation bar*/
@@ -76,3 +76,12 @@ header {
   text-transform: uppercase;
 }
 /*************************************************End of Header Formatting***************************************************/
+
+/*************************************************Footer Formatting***************************************************/
+
+/*Format footer background color*/
+footer {
+  background: var(--site-bg-color);
+}
+
+/*************************************************End of Footer Formatting***************************************************/
