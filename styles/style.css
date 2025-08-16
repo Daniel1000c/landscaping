@@ -30,7 +30,7 @@
 
 /*Root Formatting*/
 :root {
-  --logo-text-font: "Playfair Display", sans-serif;
+  --text-font: "Playfair Display", sans-serif;
   --navigation-text-font: "Poppins", sans-serif;
   --site-bg-color: linear-gradient(to right, #ff9966, #ff5e62);
 }
@@ -53,7 +53,7 @@ header {
 .logo-text {
   position: relative;
   top: 10px;
-  font-family: var(--logo-text-font);
+  font-family: var(--text-font);
   font-size: 1rem;
   font-weight: 900;
   letter-spacing: 0.1rem;
@@ -76,6 +76,20 @@ header {
   text-transform: uppercase;
 }
 /*************************************************End of Header Formatting***************************************************/
+
+/*************************************************Start of Section Formatting***************************************************/
+/***Format section titles***/
+.section-title {
+  font-family: var(--text-font);
+  font-size: 2rem;
+  font-weight: 900;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+
+/***FAQ Section Formatting***/
+
+/*************************************************End of Section Formatting***************************************************/
 
 /*************************************************Footer Formatting***************************************************/
 
