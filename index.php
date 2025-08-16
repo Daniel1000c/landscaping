@@ -3,5 +3,6 @@
 ?>
 
 <?php
+    require('includes/faqSection.php');
     require('includes/footer.php');
 ?>
