@@ -87,16 +87,16 @@
                     <div class="text-center text-md-right">
                         <ul class="list-unstyled list-inline">
                             <li class="list-inline-item">
-                                <a href="#" class="btn-floating btn-sm" style="font-size: 23px;"><i><i class="fab fa-facebook-f"></i></i></a>
+                                <a href="https://www.facebook.com" rel="noreferrer noopener" target="_blank" class="btn-floating btn-sm" style="font-size: 23px;"><i><i class="fab fa-facebook-f"></i></i></a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="#" class="btn-floating btn-sm" style="font-size: 23px;"><i><i class="fab fa-twitter"></i></i></a>
+                                <a href="https://www.twitter.com" rel="noreferrer noopener" target="_blank" class="btn-floating btn-sm" style="font-size: 23px;"><i><i class="fab fa-twitter"></i></i></a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="#" class="btn-floating btn-sm" style="font-size: 23px;"><i><i class="fab fa-instagram"></i></i></a>
+                                <a href="https://www.instagram.com" rel="noreferrer noopener" target="_blank" class="btn-floating btn-sm" style="font-size: 23px;"><i><i class="fab fa-instagram"></i></i></a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="#" class="btn-floating btn-sm" style="font-size: 23px;"><i><i class="fab fa-youtube"></i></i></a>
+                                <a href="https://www.youtube.com" rel="noreferrer noopener" target="_blank" class="btn-floating btn-sm" style="font-size: 23px;"><i><i class="fab fa-youtube"></i></i></a>
                             </li>
                         </ul>
                     </div>
