@@ -5,6 +5,12 @@
 
 /*Poppins*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/*Roboto*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+/*Nunito*/
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 /*************************************************End of Font Families***************************************************/
 
 /*************************************************Keyframes Formatting***************************************************/
@@ -31,7 +37,9 @@
 /*Root Formatting*/
 :root {
   --text-font: "Playfair Display", sans-serif;
+  --accordion-text-font: "Roboto", sans-serif;
   --navigation-text-font: "Poppins", sans-serif;
+  --button-text-font: "Nunito", sans-serif;
   --site-bg-color: linear-gradient(to right, #ff9966, #ff5e62);
 }
 /*************************************************End of General Formatting***************************************************/
@@ -78,6 +86,12 @@ header {
 /*************************************************End of Header Formatting***************************************************/
 
 /*************************************************Start of Section Formatting***************************************************/
+
+/*Format section padding*/
+section {
+  padding: 50px 0;
+}
+
 /***Format section titles***/
 .section-title {
   font-family: var(--text-font);
@@ -85,9 +99,111 @@ header {
   font-weight: 900;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
+  color: #d9433e;
+}
+
+/***Hero Section Formatting***/
+.heroSection {
+  background-image: linear-gradient(
+      to top,
+      rgba(255, 153, 102, 0.6),
+      rgba(255, 94, 98, 0)
+    ),
+    url(../images/heroSectionBg.jpg);
+  background-size: cover;
+  background-position: center 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/*Format hero section title*/
+.heroSection h1 {
+  margin-bottom: 20px;
+  font-family: var(--text-font);
+  font-size: 1.2rem;
+  font-weight: 900;
+  letter-spacing: 0.1rem;
+  line-height: 2;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+/*Format hero section paragraph*/
+.heroSection p {
+  margin-bottom: 20px;
+  font-family: var(--accordion-text-font);
+  font-size: 1rem;
+  font-style: italic;
+  letter-spacing: 0.1rem;
+  color: #ffffff;
+}
+
+/*Format hero section button*/
+.heroSection a {
+  background: linear-gradient(to right, #ff9966, #ff5e62);
+  display: inline-block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 20px;
+  font-family: monospace;
+  font-size: 1.1rem;
+  font-weight: 900;
+  font-family: var(--button-text-font);
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+/*Format hero section svg*/
+.heroSection svg {
+  background: linear-gradient(to right, #ff9966, #ff5e62);
+  padding: 20px;
+  border-radius: 50%;
 }
 
 /***FAQ Section Formatting***/
+
+/*Format accordion button headers*/
+.accordion-button {
+  font-size: 1rem;
+  font-family: var(--text-font);
+  font-weight: 900;
+  letter-spacing: 0.1rem;
+  color: #ff6f61;
+}
+
+/*Hide accordion button icon*/
+.accordion-button::after {
+  display: none;
+}
+
+/*Format new accordion icon*/
+.accordion-icon {
+  margin-left: auto;
+  transition: transform 0.3s ease;
+  color: #ff6f61;
+  font-size: 1.1rem;
+}
+
+.accordion-button[aria-expanded="true"] .accordion-icon {
+  transform: rotate(180deg);
+}
+
+/*Format accordion body text*/
+.accordion-body {
+  font-size: 0.8rem;
+  font-family: var(--accordion-text-font);
+  font-weight: 700;
+  font-style: italic;
+  line-height: 2;
+  letter-spacing: 0.15rem;
+  color: #555555;
+}
 
 /*************************************************End of Section Formatting***************************************************/
 
@@ -99,3 +215,18 @@ footer {
 }
 
 /*************************************************End of Footer Formatting***************************************************/
+
+/*************************************************Media Query Formatting***************************************************/
+/*Desk top media query*/
+@media screen and (min-width: 992px) {
+  /*Format accordion header text size*/
+  .accordion-button {
+    font-size: 1.7rem;
+  }
+
+  /*Format accordion body text size*/
+  .accordion-body {
+    font-size: 1.2rem;
+  }
+}
+/*************************************************End of Media Query Formatting***************************************************/
