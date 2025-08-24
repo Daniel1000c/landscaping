@@ -28,7 +28,7 @@
                     <!-- Container wrapper -->
                     <div class="container">
                         <!-- Navbar brand -->
-                        <a class="navbar-brand me-2" href="https://mdbgo.com/">
+                        <a class="navbar-brand me-2" href="index.php">
                             Flores Terrain
                         </a>
 
@@ -50,10 +50,10 @@
                         <!-- Left links -->
                         <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Home</a>
+                                <a class="nav-link" href="index.php">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
+                                <a class="nav-link" href="about.php">About</a>
                             </li>
                             <!-- Dropdown -->
                             <li class="nav-item dropdown">
@@ -128,10 +128,10 @@
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Portfolio</a>
+                                <a class="nav-link" href="portfolio.php">Portfolio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
+                                <a class="nav-link" href="contact.php">Contact</a>
                             </li>
                         </ul>
                         <!-- Left links -->
@@ -140,7 +140,7 @@
                             <a
                             data-mdb-ripple-init
                             class="btn btn-dark px-3"
-                            href="https://github.com/mdbootstrap/mdb-ui-kit"
+                            href="contact.php"
                             role="button"
                             >
                             Get A Quote
