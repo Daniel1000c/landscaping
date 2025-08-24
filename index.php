@@ -1,6 +1,6 @@
 <?php
     //Header file
-    include 'includes/header.php';
+    require 'includes/header.php';
 ?>
 
 <!--Hero section carousel-->
@@ -84,5 +84,5 @@
 
 <?php
     //Footer file
-    include 'includes/footer.php';
+    require 'includes/footer.php';
 ?>
